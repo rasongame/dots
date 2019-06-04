@@ -1,0 +1,44 @@
+
+[options]
+font = Roboto Mono 10
+
+[colors]
+
+# special
+foreground      = #ffffff
+foreground_bold = #ffffff
+cursor          = #ffffff
+background      = #000000
+
+# black
+color0  = #4b5262
+color8  = #434a5a
+
+# red
+color1  = #bf616a
+color9  = #b3555e
+
+# green
+color2  = #a3be8c
+color10 = #93ae7c
+
+# yellow
+color3  = #ebcb8b
+color11 = #dbbb7b
+
+# blue
+color4  = #81a1c1
+color12 = #7191b1
+
+# magenta
+color5  = #b48ead
+color13 = #a6809f
+
+# cyan
+color6  = #88c0d0
+color14 = #76aebe
+
+# white
+color7  = #e5e9f0
+color15 = #d1d5dc
+
