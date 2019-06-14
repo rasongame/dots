@@ -1,5 +1,5 @@
----------------------------
--- Default awesome theme --
+--------------------------
+-- ITS AWESOME BULLSHIT THEME IN THE WORLD! --
 ---------------------------
 
 local theme_assets = require("beautiful.theme_assets")
@@ -32,7 +32,7 @@ theme.fg_minimize   = "#ffffff"
 theme.useless_gap   = dpi(3)
 theme.border_width  = dpi(1)
 theme.border_normal = "#000000"
-theme.border_focus  = "#FFFFFF"
+theme.border_focus  = "#000000"
 theme.border_marked = "#91231c"
 
 -- tasklist 
@@ -87,7 +87,7 @@ theme.menu_width  = dpi(100)
 --theme.bg_widget = "#cc0000"
 
 
-theme.titlebar_bg_focus = "#250E79"
+theme.titlebar_bg_focus = "#000000"
 -- Define the image to load
 theme.titlebar_close_button_normal = themes_path.."default/titlebar/close_normal.png"
 theme.titlebar_close_button_focus  = themes_path.."default/titlebar/close_focus.png"
@@ -114,8 +114,8 @@ theme.titlebar_maximized_button_normal_inactive = themes_path.."default/titlebar
 theme.titlebar_maximized_button_focus_inactive  = themes_path.."default/titlebar/maximized_focus_inactive.png"
 theme.titlebar_maximized_button_normal_active = themes_path.."default/titlebar/maximized_normal_active.svg"
 theme.titlebar_maximized_button_focus_active  = themes_path.."default/titlebar/maximized_focus_active.png"
-
-theme.wallpaper = "/home/rason/.wallpapers/wallhaven-ey3exw.png"
+wallpaper = "/home/rason/.config/awesome/themes/default/background.jpg"
+theme.wallpaper = wallpaper
 
 -- You can use your own layout icons like this:
 theme.layout_fairh = themes_path.."default/layouts/fairhw.png"

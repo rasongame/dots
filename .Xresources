@@ -1,0 +1,48 @@
+
+! special
+st.foreground:   #f0f0f0
+st.background:   #000000
+st.cursorColor:  #f0f0f0
+
+! black
+st.color0:       #0f0f0f
+st.color8:       #2f2f2f
+
+! red
+st.color1:       #aa6644
+st.color9:       #dd9955
+
+! green
+st.color2:       #445533
+st.color10:      #778844
+
+! yellow
+st.color3:       #eeddaa
+st.color11:      #eedd66
+
+! blue
+st.color4:       #445566
+st.color12:      #6676ed
+
+! magenta
+st.color5:       #ab4489
+st.color13:      #de5499
+
+! cyan
+st.color6:       #4499ab
+st.color14:      #5499de
+
+! white
+st.color7:       #f0f0f0
+st.color15:      #ffffff
+st.cursorshape:  4
+st.cursorthickness: 1
+st.opacity:		100
+st.font:		monaco:pixelsize=13
+Xcursor.theme: Mate Black
+Xft.dpi: 96
+Xft.antialias: true
+Xft.hinting: true
+Xft.rgba: rgb
+Xft.hintstyle: hintslight
+Xft.lcdfilter: lcddefault

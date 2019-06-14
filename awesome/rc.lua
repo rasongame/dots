@@ -56,7 +56,7 @@ end
 beautiful.init("/home/rason/.config/awesome/themes/default/theme.lua")
 
 -- This is used later as the default terminal and editor to run.
-terminal = "termite"
+terminal = "xst"
 browser = "firefox"
 file_manager = "nemo"
 editor = os.getenv("EDITOR") or "nano"
@@ -494,7 +494,7 @@ awful.rules.rules = {
                      border_color = beautiful.border_normal,
                      border_radius = beautiful.border_radius,
                      focus = awful.client.focus.filter,
-                     raise = true,
+                     raise = false,
                      keys = clientkeys,
                      buttons = clientbuttons,
                      screen = awful.screen.preferred,
@@ -518,6 +518,13 @@ awful.rules.rules = {
     class = "warsow.x86_64"},
     properties = {
       titlebars_enabled = false
+      }
+    },
+    {
+      rule = {
+        class = "xst"  },
+      properties= {
+        
       }
     }
   }
@@ -583,12 +590,18 @@ treetile.direction = "right" -- or "left"
 
 
 -- Enable sloppy focus, so that focus follows mouse.
-client.connect_signal("mouse::enter", function(c)
-    c:emit_signal("request::activate", "mouse_enter", {raise = false})
+-- client.connect_signal("mouse::enter", function(c)
+--   c:emit_signal("request::activate", "mouse_enter", {raise = false})
+--end)
+
+client.connect_signal("focus", function(c) 
+  c.border_color = beautiful.border_focus 
 end)
 
-client.connect_signal("focus", function(c) c.border_color = beautiful.border_focus end)
-client.connect_signal("unfocus", function(c) c.border_color = beautiful.border_normal end)
+client.connect_signal("unfocus", function(c)
+  c.opacity = 1 
+  c.border_color = beautiful.border_normal 
+end)
 -- }}}
 
 client.connect_signal("property::floating", function (c)
@@ -598,13 +611,12 @@ client.connect_signal("property::floating", function (c)
         awful.titlebar.hide(c)
     end
 end)
-
 client.connect_signal("manage", function (c)
     c.shape = function(cr,w,h)
         if c.class == "Firefox" then
           gears.shape.rounded_rect(cr,w,h,0)
         else
-          gears.shape.rounded_rect(cr,w,h,0)
+          gears.shape.rounded_rect(cr,w,h,5)
         end
     end
 end)
