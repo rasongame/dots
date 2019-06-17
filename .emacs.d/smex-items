@@ -1,0 +1,32 @@
+
+;; ----- smex-history -----
+(
+ org-mode
+ package-install
+ package-refresh-contents
+ erc-tls
+ cd
+ lcd
+ buffer-menu
+)
+
+;; ----- smex-data -----
+(
+ (package-install . 11)
+ (load-theme . 1)
+ (eval-buffer . 5)
+ (disable-theme . 1)
+ (pacmacs-score . 1)
+ (pacmacs-start . 2)
+ (2048-game . 1)
+ (package-refresh-contents . 3)
+ (rust-mode . 1)
+ (go-mode . 1)
+ (help-go-back . 1)
+ (go-complete-at-point . 1)
+ (buffer-menu . 1)
+ (lcd . 1)
+ (cd . 2)
+ (erc-tls . 1)
+ (org-mode . 1)
+)

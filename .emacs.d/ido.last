@@ -1,0 +1,45 @@
+;;; -*- coding: utf-8 -*-
+
+;; ----- ido-last-directory-list -----
+(
+ ("/home/rason/src/python/" . "test/")
+ ("/home/rason/src/" . "python/")
+)
+
+;; ----- ido-work-directory-list -----
+(
+ "/home/rason/go/src/markdown_server/web/"
+ "/home/rason/src/python/test/"
+ "/home/rason/src/python/test/index.html/"
+)
+
+;; ----- ido-work-file-list -----
+(
+ "post.html"
+ "base.html"
+ "index.html"
+)
+
+;; ----- ido-dir-file-cache -----
+(
+ ("/home/rason/go/src/markdown_server/web/" (23813 11482 794449 814000) "./" "base.html" "post.html" ".#base.html" "style.css" "../")
+
+ ("/home/" (23704 3706 167185 841000) "./" "rason/" "../")
+
+ ("/home/rason/" (23813 11409 17784 228000) ".pki/" "2019-05-30-092421_1366x768_scrot.png" "TL.jar" ".ssr/" ".elinks/" "Untitled.ipynb" "music/" ".weechat/" ".dotnet/" ".mbwarband/" ".zsh/" ".xinitrc_xfce" ".conkyrc" "#.zshrc#" ".pylint.d/" "2019-05-30-160752_1366x768_scrot.png" "2019-05-30-220252_329x87_scrot.png" "FTB/" "CLionProjects/" ".ICEauthority" ".luarocks/" ".xinitrc_awm" ".eclim/" ".Xresources" ".gnupg/" ".zenmap/" ".cargo/" ".bashrc.pre-oh-my-bash" ".ssh/" ".cache/" ".rnd" "Видео/" ".zsh_history" ".minecraft/" ".bash_profile" ".nvidia-settings-rc" ".mozilla/" "2019-05-30-184054_437x55_scrot.png" ".lyrics/" "Загрузки/" ".vscode/" ".uplink/" "2019-05-30-183618_213x56_scrot.png" "Документы/" ".Xmodmaprc" "2019-05-30-144549_684x342_scrot.png" ".mplayer/" ".skulltag/" "2019-05-30-221340_1162x611_scrot.png" "2019-05-30-161707_633x239_scrot.png" "Музыка/" ".android/" "IdeaProjects/" ".sdirs" ".mysql_history" "eclipse-workspace/" ".npm/" "2019-05-30-095902_1366x768_scrot.png" ".viminfo" ".oh-my-zsh/" ".gtkrc-2.0" ".fvwm/" ".bash_logout" ".zcompdump-127-5.7.1" "2019-05-30-144539_720x281_scrot.png" ".antigen/" ".zshrc.pre-oh-my-zsh" ".tooling/" ".esd_auth" ".bin/" ".oracle_jre_usage/" ".nvidia-xinitrc" "2019-05-30-161126_668x160_scrot.png" ".gitconfig" ".jupyter/" ".xmonad/" ".bashrc" ".wget-hsts" "2019-05-30-181808_616x188_scrot.png" ".q3a/" ".mpd/" ".config/" "echo" "2019-05-30-164858_1366x768_scrot.png" ".dosbox/" ".nuget/" ".spacemacs" "wp_tar/" ".mono/" "2019-05-30-161701_598x246_scrot.png" ".wine/" ".moonchild productions/" ".osh-update" ".mputils/" "2019-05-30-180836_1356x298_scrot.png" ".gradle/" ".ipython/" "2019-05-30-174851_1366x768_scrot.png" "feh_009069_000001_005.png" ".alias_zsh" ".minecraftlauncher/" "workbench.xmi" "world/" "PycharmProjects/" ".IdeaIC2019.1/" "2019-05-30-183250_752x488_scrot.png" "#init.el#" ".python_history" "Documents/" ".flauncher/" "Mail/" "SteamLibrary/" ".mutt/" ".xscreensaver" ".PlayOnLinux/" ".shell.pre-oh-my-zsh" ".ipynb_checkpoints/" ".steampath" ".local/" ".msf4/" "Desktop/" ".links/" ".wallpapers/" ".designer/" "Hacknet_v5.069_Standalone_Linux/" ".zshrc.bak" ".tlauncher/" ".eclipse/" ".CLion2019.1/" ".ncmpcpp/" "files/" "pictures/" ".bombsquad/" ".themes/" ".nv/" "mnt/" "Шаблоны/" ".groovy/" ".PyCharmCE2018.3/" ".ftblauncher/" ".shscripts/" "2019-05-28-194100_1366x768_scrot.png" ".tmux.conf" ".factorio/" "Minecraft/" "2019-05-30-180610_1240x449_scrot.png" ".tor-browser/" ".openarena/" ".fonts/" "2019-05-30-180647_1366x768_scrot.png" ".zshrc.omz-uninstalled-20190608200300" ".mpd.pid" ".lesshst" ".Xauthority" ".emacs.d/" ".oh-my-bash/" "2019-05-28-170659_1366x768_scrot.png" ".dmrc" ".w3m/" ".fehbg" ".steampid" ".icons/" ".pacmacs-score" "2019-05-28-193118_1366x768_scrot.png" ".zshrc.zwc" "Общедоступные/" ".thumbnails/" ".zcompdump-dunk-5.7.1" "Downloads/" "go/" ".bash_history" ".steam/" ".fontconfig/" ".recently-used" "x/" ".zcompdump" ".urxvt/" ".java/" "Изображения/" "logs/" "2019-05-30-221617_1154x556_scrot.png" ".swt/" ".muttrc" ".xsession-errors" ".zcompdump-rootboy-5.7.1" ".zshrc" ".archey3.cfg" ".gtk-bookmarks" "video/" ".vimrc" ".vim/" "2019-05-30-193841_431x246_scrot.png" "2019-05-30-221013_846x557_scrot.png" "neofetch" ".xinitrc" "src/" ".defcon/" "2019-05-28-160733_1366x768_scrot.png" ".hedgewars/" ".xonotic/" "../" "./")
+
+ ("/home/rason/go/" (23712 58858 865428 777000) "./" "bin/" "pkg/" "../" "src/")
+
+ ("/home/rason/go/src/" (23813 8640 184491 440000) "./" "GoMusicalServer/" "GosZak/" "markdown_server/" "github.com/" "golang.org/" "../")
+
+ ("/home/rason/go/src/markdown_server/" (23813 11409 21117 561000) "./" "web/" ".#mdserver.go" "mdserver.go" "mdserver.go~" "../")
+
+ ("/home/rason/src/python/test/" (23813 7620 607839 704000) "./" "index.js" "#styles.css#" "index.html~" "styles.css" "README.md" "#index.html#" "../" "index.html")
+
+ ("/home/rason/src/python/" (23812 34981 518399 875000) "./" "sutener/" "mcmodman/" "chat/" "test/" "../")
+
+ ("/home/rason/src/" (23790 37333 50025 81000) "html/" "./" "asm/" "python/" "mcserver/" "java/" "projects/" "../")
+)
+
+;; ----- ido-unc-hosts-cache -----
+t
