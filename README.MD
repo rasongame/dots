@@ -9,5 +9,5 @@ user@PC: ~ $ cd .. && rm dots
 ```
 
 ## Скриншоты
-![screen1] (https://i.imgur.com/kYG2mtd.png)
-![screen2] (https://i.imgur.com/RKQKjwt.png)
+![screen1](https://i.imgur.com/kYG2mtd.png)
+![screen2](https://i.imgur.com/RKQKjwt.png)
