@@ -1,2 +1,162 @@
-((("package" .
-   [0 0 1 0 0 0 0])))
+((("user-login-name" .
+   [0 0 0 0 0 1 0 0 0 0 0 0 0 0 0])
+  ("emacs-reloaded" .
+   [0 0 0 0 0 0 0 0 0 0 0 0 0 1])
+  ("after-insert-file-functions" .
+   [0 0 0 0 0 0 0 0 0 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0])
+  ("frame-width" .
+   [1 0 0 0 0 0 0 0 0 0 0])
+  ("frame-height" .
+   [0 0 0 0 0 0 0 0 0 0 1 1])
+  ("message" .
+   [1 0 0 0 0 0 0])
+  ("animate-string" .
+   [0 0 0 0 0 0 0 0 0 0 0 1 0 0])
+  ("frameset-persistent-filter-alist" .
+   [1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0])
+  ("if" .
+   [1 0])
+  ("sad" .
+   [2 0 0])
+  ("ac-config-default" .
+   [1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0])
+  ("auto-complete-mode-major-mode" .
+   [0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 0 0 0 0 0 0 0 0 0 0])
+  ("auto-complete" .
+   [1 0 0 0 0 0 0 0 0 0 0 0 0])
+  ("jedi" .
+   [1 0 0 0])
+  ("jedi:complete" .
+   [0 0 0 0 0 0 0 0 0 0 0 1 0])
+  ("setq" .
+   [2 0 0 0])
+  ("jedi:ac-setup" .
+   [0 0 0 0 0 0 0 0 0 0 0 0 1])
+  ("jedi:setup" .
+   [1 0 0 0 0 0 0 0 0 0])
+  ("python-mode-hook" .
+   [0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 2])
+  (":initform" .
+   [0 0 0 0 0 1 0 0 0])
+  ("css-mode-hook" .
+   [0 0 0 0 0 0 0 0 0 0 0 0 1])
+  ("sgml-mode-hook" .
+   [0 0 0 0 1 0 0 0 0 0 0 0 0 0])
+  ("emmet-mode" .
+   [3 0 0 0 0 0 0 0 0 0])
+  ("powerline-reset" .
+   [1 0 0 0 0 0 0 0 0 0 0 0 0 0 0])
+  ("after-init-hook" .
+   [1 0 0 0 0 0 0 0 0 0 0 0 0 0 1])
+  ("after-save-hook" .
+   [0 0 0 0 0 1 0 0 0 0 0 0 0 0 0])
+  ("add-hook" .
+   [3 0 0 0 0 0 1 3])
+  ("powerline-evil-vim-theme" .
+   [0 0 0 0 0 0 0 0 0 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0])
+  (":init" .
+   [1 0 0 0 0])
+  (":config" .
+   [3 0 0 0 0 0 0])
+  ("powerline-buffer-size-suffix" .
+   [0 0 0 0 0 0 0 0 0 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0])
+  ("use-package" .
+   [5 0 0 0 0 0 0 0 0 0 0])
+  ("asd" .
+   [2 0 0])
+  ("requests" .
+   [1 0 0 0 0 1 0 0])
+  ("cout" .
+   [1 0 0 0])
+  ("auto" .
+   [1 0 0 0])
+  ("relative" .
+   [0 0 0 0 0 1 0 0])
+  ("button" .
+   [2 0 0 0 0 0])
+  ("td" .
+   [2 0])
+  ("tr" .
+   [1 0])
+  ("transparent" .
+   [1 0 0 0 0 0 0 0 0 0 0])
+  ("justify" .
+   [1 0 0 0 0 0 0])
+  ("border-radius" .
+   [0 0 0 0 0 0 0 0 0 1 0 0 0])
+  ("button.favorited_links" .
+   [0 0 0 0 0 0 0 0 0 0 0 0 0 1 0 0 0 0 0 0 0 0])
+  ("aqua" .
+   [0 0 0 1])
+  ("absolute" .
+   [3 0 0 2 0 0 0 2])
+  ("Background" .
+   [0 0 0 0 0 0 0 0 0 1])
+  ("text-decoration" .
+   [0 0 0 0 0 0 0 1 0 0 0 0 0 0 1])
+  ("main" .
+   [4 0 0 0])
+  ("black" .
+   [2 0 0 0 0])
+  ("white" .
+   [1 0 0 0 0])
+  ("zerodark" .
+   [2 0 0 0 0 0 0 0])
+  ("active" .
+   [9 0 0 0 0 0])
+  ("form" .
+   [1 0 0 0])
+  ("package" .
+   [0 0 1 0 0 0 0])
+  ("inline-block" .
+   [0 0 0 0 0 0 0 1 0 0 0 0])
+  ("awful" .
+   [1 0 0 0 0])
+  ("widget" .
+   [2 0 0 0 0 0])
+  ("textclock" .
+   [2 0 0 0 0 0 0 0 0])
+  ("wibox" .
+   [2 0 0 0 0])
+  ("mytasklist" .
+   [1 0 0 0 0 0 0 0 0 0])
+  ("mytextclock" .
+   [1 0 0 0 0 0 0 0 0 0 0])
+  ("wibar" .
+   [1 0 0 0 0])
+  ("mkfs.ext4" .
+   [0 0 0 0 1 0 0 1 0])
+  ("/dev/sda1" .
+   [1 0 0 0 0 0 0 0 0])
+  ("mnt/" .
+   [1 0 0 1])
+  ("mount" .
+   [2 0 0 0 0])
+  ("/dev/sda3" .
+   [1 0 0 0 0 0 0 0 0])
+  ("mnt/boot" .
+   [0 0 0 1 0 0 0 0])
+  ("Bot" .
+   [0 0 2])
+  ("bot" .
+   [8 0 0])
+  ("API_TOKEN" .
+   [0 1 1 0 0 0 0 0 0])
+  ("getMe" .
+   [3 0 0 0 0])
+  ("GeneratorExit" .
+   [0 0 1 0 0 0 0 0 0 0 0 0 0])
+  ("json" .
+   [0 0 0 1])
+  ("loads" .
+   [0 0 1 0 0])
+  ("require" .
+   [1 0 0 0 0 0 0])
+  ("all-the-icons" .
+   [0 0 0 0 1 0 0 0 0 0 0 0 0])
+  ("arabic-shape-log" .
+   [0 0 0 1 0 0 0 0 0 0 0 0 0 0 0 0])
+  ("func" .
+   [0 0 1 0])
+  ("fmt" .
+   [1 0 0])))

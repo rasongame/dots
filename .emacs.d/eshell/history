@@ -1,0 +1,11 @@
+neofetch
+clear
+cd ~
+ls
+PS1=2
+set PS1=2
+clear
+clear
+neofetch
+htop
+htop

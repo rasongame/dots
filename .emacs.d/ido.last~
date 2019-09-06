@@ -2,12 +2,25 @@
 
 ;; ----- ido-last-directory-list -----
 (
+ ("/home/" . "rason/")
+ ("/home/rason/go/src/" . "archibald/")
+ ("/home/rason/.config/" . "awesome/")
  ("/home/rason/src/python/" . "test/")
  ("/home/rason/src/" . "python/")
 )
 
 ;; ----- ido-work-directory-list -----
 (
+ "/home/rason/.emacs.d/"
+ "/home/rason/"
+ "/home/rason/src/html/"
+ "/home/rason/go/src/archibald/"
+ "/home/rason/src/python/tgbot/"
+ "/home/rason/src/cpp/"
+ "/home/rason/.config/awesome/"
+ "/home/rason/go/src/github.com/mallvielfrass/GoMusicalServer/pages/"
+ "/home/rason/go/src/github.com/mallvielfrass/GoMusicalServer/music/static/"
+ "/home/rason/src/go/GoMusicalServer/music/static/"
  "/home/rason/go/src/markdown_server/web/"
  "/home/rason/src/python/test/"
  "/home/rason/src/python/test/index.html/"
@@ -15,30 +28,79 @@
 
 ;; ----- ido-work-file-list -----
 (
- "post.html"
- "base.html"
- "index.html"
+ "init.el"
+ "TODO.org"
+ "main.go"
+ "example.py"
+ "test.cpp"
+ "rc.lua"
+ "style.css"
+ "search.html"
+ "mui.scss"
+ "mui.css"
 )
 
 ;; ----- ido-dir-file-cache -----
 (
+ ("/home/rason/.emacs.d/" (23922 35264 98035 253000) "ido.last~" "smex-items" "url/" "network-security.data" "./" "init.el~" "ergoemacs-mode/" "ac-comphist.dat" "eshell/" ".cache/" ".python-environments/" "ido.last" "recentf" "auto-save-list/" "init.el" "all-the-icons.el/" "image-dired/" ".init.el.swp" "#recentf#" "recentf~" "ergoemacs-extras/" "emacs-powerline/" "elpa/" "go-mode.el/" "ede-projects.el" "../" "elpa-26-2-x86-64-pc-linux-gnu/" "games/" "smex/")
+
+ ("/home/rason/src/html/" (23921 24173 150873 539000) "./" "style.css~" "static/" "config.py" "templates/" "__pycache__/" "utils/" "index.html~" "README.md" "TODO.org" "main.py" "venv/" "../" ".git/")
+
+ ("/home/rason/" (23922 35245 671036 496000) ".pki/" ".parallel/" "TL.jar" ".ssr/" ".elinks/" "Untitled.ipynb" "music/" ".weechat/" ".dotnet/" ".mbwarband/" ".zsh/" ".xinitrc_xfce" ".conkyrc" "#.zshrc#" ".pylint.d/" ".ICEauthority" ".zcompdump-laptop-arch-5.7.1" ".luarocks/" ".xinitrc_awm" ".eclim/" ".node_repl_history" ".x2go/" ".Xresources" ".gnupg/" ".zenmap/" ".cargo/" ".tmux/" ".ssh/" ".x2goclient/" ".cache/" ".rnd" "Видео/" ".zsh_history" ".minecraft/" ".bash_profile" ".nvidia-settings-rc" ".mozilla/" ".lyrics/" ".gtkrc-2.0-1562221355~" "Загрузки/" ".kde4/" ".vscode/" ".uplink/" "Untitled1.ipynb" ".squareland/" "New Folder/" "Документы/" ".Xmodmaprc" ".atom/" ".mplayer/" "Музыка/" ".android/" ".Xdefaults" "dots/" ".sdirs" ".mysql_history" ".npm/" ".viminfo" ".gtkrc-2.0" ".fvwm/" ".bash_logout" ".zcompdump-127-5.7.1" ".antigen/" ".zshrc.pre-oh-my-zsh" ".tooling/" ".esd_auth" ".bin/" ".oracle_jre_usage/" ".nvidia-xinitrc" ".fltk/" "node_modules/" "#tasks.org#" ".gitconfig" ".jupyter/" ".xmonad/" ".bashrc" ".wget-hsts" ".q3a/" ".mpd/" ".config/" ".dosbox/" ".wzdcubes/" ".nuget/" ".spacemacs" "wp_tar/" "Пароли.kdbx" ".mono/" ".wine/" ".zcompdump-dabba-5.7.1" ".moonchild productions/" ".osh-update" "obs-video/" "nanodesu/" ".mputils/" "-" ".terminfo/" ".gradle/" ".ipython/" ".alias_zsh" ".minecraftlauncher/" "world/" ".IdeaIC2019.1/" "pacgraph.svg" "2019-08-06-213032_1366x768_scrot.png" ".xsession-errors.old" ".python_history" "Documents/" ".flauncher/" ".icewm/" "Mail/" "SteamLibrary/" ".mutt/" ".xscreensaver" ".PlayOnLinux/" ".shell.pre-oh-my-zsh" ".ipynb_checkpoints/" ".steampath" ".local/" ".fonts.conf" ".aqemu/" ".msf4/" "Desktop/" ".links/" ".wallpapers/" ".designer/" ".zshrc.bak" ".tlauncher/" ".eclipse/" ".CLion2019.1/" ".ncmpcpp/" "files/" "pictures/" ".bombsquad/" ".themes/" ".nv/" "mnt/" "Шаблоны/" ".groovy/" ".PyCharmCE2018.3/" ".ftblauncher/" ".electrum/" ".shscripts/" ".tmux.conf" "TODO.org" ".irssi/" ".factorio/" "Minecraft/" ".tor-browser/" ".openarena/" ".fonts/" ".zshrc.omz-uninstalled-20190608200300" ".mpd.pid" ".lesshst" ".Xauthority" ".emacs.d/" ".dmrc" ".w3m/" ".fehbg" ".steampid" ".icons/" ".pacmacs-score" ".zshrc.zwc" "Общедоступные/" ".thumbnails/" ".zcompdump-dunk-5.7.1" "Downloads/" ".viminfo.tmp" "go/" ".bash_history" "pacgraph.png" ".steam/" ".fontconfig/" ".recently-used" ".lvm_history" "x/" ".zcompdump" ".screenlayout/" ".urxvt/" ".pacmacs-score~" ".idea/" ".java/" "Изображения/" "logs/" ".ts3client/" ".swt/" ".muttrc" ".xsession-errors" ".zcompdump-rootboy-5.7.1" ".zshrc" ".archey3.cfg" ".gtk-bookmarks" "a.out" "video/" ".vimrc" ".vim/" ".xinitrc" "src/" ".defcon/" ".hedgewars/" ".xonotic/" ".telega/" "../" "./")
+
+ ("/home/rason/src/python/test/" (23910 16331 535435 858000) "./" "drobi.py" ".idea/" "../")
+
+ ("/home/rason/go/src/github.com/mallvielfrass/GoMusicalServer/music/static/" (23823 38153 587407 635000) "./" "playbtn.svg" "#mui.css#" "script.js" "mui.scss~" "mui.scss" "../" "mui.css")
+
+ ("/home/rason/go/src/github.com/mallvielfrass/GoMusicalServer/pages/" (23823 37823 390751 227000) "./" "search.html" "api.html" "about.html" "#search.html#" "../")
+
+ ("/home/rason/.config/awesome/" (23918 25662 13289 797000) "./" "themes/" "rc.lua" "icons/" "../")
+
+ ("/home/rason/src/cpp/" (23902 55471 963179 11000) "./" "#main.cpp#" "main.cpp" ".#main.cpp" "../" ".git/")
+
+ ("/home/rason/src/python/tgbot/" (23892 9417 95506 85000) "./" "venv/" "#bot.py#" ".idea/" "../")
+
+ ("/home/rason/go/src/archibald/" (23921 17503 641026 871000) "./" "todo" "#main.go#" "LICENSE" ".gitignore" "utils.go" "flymd.md" "alarm.go" "README.md" "main.go" "flymd.html" "../" "app" ".git/")
+
+ ("/home/rason/files/" (23918 28737 700002 689000) ".#ascii" "zsh_export.sh" "./" "confidential/" "dediks.txt" "mc1710/" "smsbomba/" "rofi-themes/" "dots/" "OpenComputersVM/" "shit/" "#arch.sh#" "absolutely-proprietary/" "gentoo.tar.gz" "baba/" "mcserver/" "html_design/" "#ascii#" "../" "games/" "ascii")
+
+ ("/home/rason/src/" (23916 63370 657552 726000) "html/" "v/" "./" "love/" "asm/" "python/" "nodejs/" "bootstrap_test/" "cloned/" "mcserver/" "java/" "C/" "elisp/" "cpp_trash/" "projects/" "../" "cpp/")
+
+ ("/home/rason/go/src/" (23889 43293 873518 662000) "./" "bot_vk/" "archibald/" "gobot/" "github.com/" "1" "golang.org/" "botnetwork/" "../")
+
+ ("/home/rason/go/" (23816 64199 214326 318000) "./" "bullshit/" "bin/" "pkg/" "../" "src/")
+
+ ("/home/rason/.config/awesome/themes/default/" (23830 20326 865691 948000) "./" "theme.lua~" "theme.lua" "background.png" "titlebar/" "layouts/" "taglist/" "background_city.png" "README" "submenu.png" "background.jpg" "background1.png" "../")
+
+ ("/home/rason/.config/awesome/themes/" (23791 18973 268889 660000) "./" "rsngm/" "default/" "../")
+
+ ("/home/rason/.config/" (23832 57826 805091 103000) "Game Dev Tycoon - Steam/" "Code/" "gtk-3.0/" "dlv/" "./" "htop/" "godot/" "lxterminal/" "sakura/" "caja/" "VirtualBox/" "omf/" "spotify/" "openbox/" "gconf/" "enchant/" "terminator/" "yad.conf" "i3/" "lutris/" "dconf/" "gocode/" "kritadisplayrc" "alacritty/" "pcmanfm/" "cava/" "obs-studio/" "KeePass/" "qBittorrent/" "pavucontrol.ini" "monitors.xml" "QtProject/" "Dharkael/" "galculator/" "com.add0n.native_client/" "qutebrowser/" "newsboat/" "autostart/" "oomox/" "nemo/" "qt5ct/" ".mono/" "zandronum/" "kdeglobals" "VK/" "Atom/" "polybar/" "rofi/" "xfce4/" "kdenliverc" "vifm/" "mc/" "cef_user_data/" "QtProject.conf" "nvim/" "nitrogen/" "pulse/" "jls/" "guake/" "unity3d/" "discord/" "wal/" "kitty/" "Hacknet/" "termite/" "configstore/" "glade.conf" "GIMP/" "bspwm/" "dunst/" "sqlitebrowser/" "mpv/" "Electron/" "Thunar/" "user-dirs.dirs" "kritarc" "sublime-text-3/" "mimeapps.list" "libfm/" "yay/" "arkrc" "keepassxc/" "procps/" "awesome/" "gtk-2.0/" "electron-simple-app/" "../" "menus/" "aseprite/" "ranger/" "sxhkd/" "Riot/" "Kitware/" "knfsshare" "gedit/" "plank/" "google-chrome/" "chromium/" "user-dirs.locale" "neofetch/" "krusaderrc" "fish/" "inkscape/" "smplayer/")
+
+ ("/home/rason/go/src/github.com/mallvielfrass/GoMusicalServer/" (23823 37699 674088 344000) "pages/" "./" "music/" "VkMusic.db" "download.go" "rout.go" "convert.go" ".gitignore" "mod/" "TODO" "localscan.go" "tasks.org~" "tasks.org" "README.md" "main.go" "opus/" "../" "key.txt" ".git/")
+
+ ("/home/rason/go/src/github.com/mallvielfrass/GoMusicalServer/music/" (23816 63624 744358 113000) "./" "static/" "opus/" "../")
+
+ ("/home/rason/src/go/GoMusicalServer/music/static/" (23815 48130 723941 73000) "./" "playbtn.svg" "script.js" "script.js~" "mui.css~" "rsngm_script.js" "../" "mui.css")
+
+ ("/home/rason/src/go/GoMusicalServer/music/" (23815 31310 434860 705000) "./" "static/" "script.js~" "opus/" "../")
+
+ ("/home/rason/src/go/GoMusicalServer/opus/" (23815 45287 687429 515000) "./" "_split_371745462_split_Rae Sremmurd feat. Gucci Mane-Black Beatles.opus" "_split_39806378_split_Laulau-GRAAA.opus" "_split_151549948_split_BLA_Y-GRAAA.opus" "_split_371745447_split_Eiffel 65-Blue (Da Ba Dee) (Video Edit) (Video Edit).opus" "_split_371745440_split_Nickelback-Rockstar.opus" "../" "_split_371745431_split_Smokepurpp, Murda Beatz-123.opus")
+
+ ("/home/rason/src/go/GoMusicalServer/pages/" (23815 64032 114820 694000) "./" "search.html" "api.html" "about.html" "../")
+
+ ("/home/rason/src/go/" (23814 26088 469946 396000) "./" "GoMusicalServer/" "bullshit/" "bin/" "../" "src/")
+
+ ("/home/rason/src/go/GoMusicalServer/modules/" (23815 64032 114820 694000) "./" "check.go" "../")
+
+ ("/home/rason/src/go/GoMusicalServer/" (23815 64032 114820 694000) "pages/" "./" "music/" "modules/" "download.go" "rout.go" "convert.go" ".gitignore" "#tasks.org#" "localscan.go" "tasks.org" "main.go" "opus/" "../" "key.txt" ".git/")
+
  ("/home/rason/go/src/markdown_server/web/" (23813 11482 794449 814000) "./" "base.html" "post.html" ".#base.html" "style.css" "../")
 
  ("/home/" (23704 3706 167185 841000) "./" "rason/" "../")
 
- ("/home/rason/" (23813 11409 17784 228000) ".pki/" "2019-05-30-092421_1366x768_scrot.png" "TL.jar" ".ssr/" ".elinks/" "Untitled.ipynb" "music/" ".weechat/" ".dotnet/" ".mbwarband/" ".zsh/" ".xinitrc_xfce" ".conkyrc" "#.zshrc#" ".pylint.d/" "2019-05-30-160752_1366x768_scrot.png" "2019-05-30-220252_329x87_scrot.png" "FTB/" "CLionProjects/" ".ICEauthority" ".luarocks/" ".xinitrc_awm" ".eclim/" ".Xresources" ".gnupg/" ".zenmap/" ".cargo/" ".bashrc.pre-oh-my-bash" ".ssh/" ".cache/" ".rnd" "Видео/" ".zsh_history" ".minecraft/" ".bash_profile" ".nvidia-settings-rc" ".mozilla/" "2019-05-30-184054_437x55_scrot.png" ".lyrics/" "Загрузки/" ".vscode/" ".uplink/" "2019-05-30-183618_213x56_scrot.png" "Документы/" ".Xmodmaprc" "2019-05-30-144549_684x342_scrot.png" ".mplayer/" ".skulltag/" "2019-05-30-221340_1162x611_scrot.png" "2019-05-30-161707_633x239_scrot.png" "Музыка/" ".android/" "IdeaProjects/" ".sdirs" ".mysql_history" "eclipse-workspace/" ".npm/" "2019-05-30-095902_1366x768_scrot.png" ".viminfo" ".oh-my-zsh/" ".gtkrc-2.0" ".fvwm/" ".bash_logout" ".zcompdump-127-5.7.1" "2019-05-30-144539_720x281_scrot.png" ".antigen/" ".zshrc.pre-oh-my-zsh" ".tooling/" ".esd_auth" ".bin/" ".oracle_jre_usage/" ".nvidia-xinitrc" "2019-05-30-161126_668x160_scrot.png" ".gitconfig" ".jupyter/" ".xmonad/" ".bashrc" ".wget-hsts" "2019-05-30-181808_616x188_scrot.png" ".q3a/" ".mpd/" ".config/" "echo" "2019-05-30-164858_1366x768_scrot.png" ".dosbox/" ".nuget/" ".spacemacs" "wp_tar/" ".mono/" "2019-05-30-161701_598x246_scrot.png" ".wine/" ".moonchild productions/" ".osh-update" ".mputils/" "2019-05-30-180836_1356x298_scrot.png" ".gradle/" ".ipython/" "2019-05-30-174851_1366x768_scrot.png" "feh_009069_000001_005.png" ".alias_zsh" ".minecraftlauncher/" "workbench.xmi" "world/" "PycharmProjects/" ".IdeaIC2019.1/" "2019-05-30-183250_752x488_scrot.png" "#init.el#" ".python_history" "Documents/" ".flauncher/" "Mail/" "SteamLibrary/" ".mutt/" ".xscreensaver" ".PlayOnLinux/" ".shell.pre-oh-my-zsh" ".ipynb_checkpoints/" ".steampath" ".local/" ".msf4/" "Desktop/" ".links/" ".wallpapers/" ".designer/" "Hacknet_v5.069_Standalone_Linux/" ".zshrc.bak" ".tlauncher/" ".eclipse/" ".CLion2019.1/" ".ncmpcpp/" "files/" "pictures/" ".bombsquad/" ".themes/" ".nv/" "mnt/" "Шаблоны/" ".groovy/" ".PyCharmCE2018.3/" ".ftblauncher/" ".shscripts/" "2019-05-28-194100_1366x768_scrot.png" ".tmux.conf" ".factorio/" "Minecraft/" "2019-05-30-180610_1240x449_scrot.png" ".tor-browser/" ".openarena/" ".fonts/" "2019-05-30-180647_1366x768_scrot.png" ".zshrc.omz-uninstalled-20190608200300" ".mpd.pid" ".lesshst" ".Xauthority" ".emacs.d/" ".oh-my-bash/" "2019-05-28-170659_1366x768_scrot.png" ".dmrc" ".w3m/" ".fehbg" ".steampid" ".icons/" ".pacmacs-score" "2019-05-28-193118_1366x768_scrot.png" ".zshrc.zwc" "Общедоступные/" ".thumbnails/" ".zcompdump-dunk-5.7.1" "Downloads/" "go/" ".bash_history" ".steam/" ".fontconfig/" ".recently-used" "x/" ".zcompdump" ".urxvt/" ".java/" "Изображения/" "logs/" "2019-05-30-221617_1154x556_scrot.png" ".swt/" ".muttrc" ".xsession-errors" ".zcompdump-rootboy-5.7.1" ".zshrc" ".archey3.cfg" ".gtk-bookmarks" "video/" ".vimrc" ".vim/" "2019-05-30-193841_431x246_scrot.png" "2019-05-30-221013_846x557_scrot.png" "neofetch" ".xinitrc" "src/" ".defcon/" "2019-05-28-160733_1366x768_scrot.png" ".hedgewars/" ".xonotic/" "../" "./")
-
- ("/home/rason/go/" (23712 58858 865428 777000) "./" "bin/" "pkg/" "../" "src/")
-
- ("/home/rason/go/src/" (23813 8640 184491 440000) "./" "GoMusicalServer/" "GosZak/" "markdown_server/" "github.com/" "golang.org/" "../")
-
  ("/home/rason/go/src/markdown_server/" (23813 11409 21117 561000) "./" "web/" ".#mdserver.go" "mdserver.go" "mdserver.go~" "../")
 
- ("/home/rason/src/python/test/" (23813 7620 607839 704000) "./" "index.js" "#styles.css#" "index.html~" "styles.css" "README.md" "#index.html#" "../" "index.html")
-
  ("/home/rason/src/python/" (23812 34981 518399 875000) "./" "sutener/" "mcmodman/" "chat/" "test/" "../")
-
- ("/home/rason/src/" (23790 37333 50025 81000) "html/" "./" "asm/" "python/" "mcserver/" "java/" "projects/" "../")
 )
 
 ;; ----- ido-unc-hosts-cache -----

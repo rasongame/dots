@@ -1,32 +1,65 @@
 
 ;; ----- smex-history -----
 (
- org-mode
- package-install
- package-refresh-contents
- erc-tls
- cd
- lcd
- buffer-menu
+ tabify
+ format-find-file
+ projectile-replace
+ projectile-mode
+ eval-buffer
+ load-theme
+ electric-pair-mode
 )
 
 ;; ----- smex-data -----
 (
- (package-install . 11)
- (load-theme . 1)
- (eval-buffer . 5)
+ (package-install . 24)
+ (load-theme . 47)
+ (eval-buffer . 24)
  (disable-theme . 1)
  (pacmacs-score . 1)
- (pacmacs-start . 2)
+ (pacmacs-start . 3)
  (2048-game . 1)
- (package-refresh-contents . 3)
+ (package-refresh-contents . 9)
  (rust-mode . 1)
- (go-mode . 1)
+ (go-mode . 4)
  (help-go-back . 1)
  (go-complete-at-point . 1)
- (buffer-menu . 1)
+ (buffer-menu . 2)
  (lcd . 1)
  (cd . 2)
  (erc-tls . 1)
- (org-mode . 1)
+ (org-mode . 5)
+ (ergoemacs-mode . 2)
+ (info-emacs-manual . 2)
+ (tetris . 3)
+ (eshell . 2)
+ (powerline-vim-theme . 2)
+ (evil-mode . 3)
+ (powerline-evil-vim-theme . 1)
+ (menu-bar-open . 5)
+ (split-window-horizontally . 2)
+ (split-window-vertically . 3)
+ (manual-entry . 1)
+ (help-with-tutorial-spec-language . 1)
+ (global-ede-mode . 1)
+ (doom-modeline-mode . 4)
+ (all-the-icons-install-fonts . 1)
+ (python-mode . 2)
+ (run-python . 3)
+ (undo . 12)
+ (markdown-mode . 1)
+ (markdown-live-preview-mode . 1)
+ (suspend-emacs . 1)
+ (gud-gdb . 1)
+ (eww . 3)
+ (shell . 1)
+ (image-mode . 3)
+ (image-dired-dired-display-image . 1)
+ (dired . 1)
+ (image-dired . 1)
+ (electric-pair-mode . 1)
+ (projectile-mode . 2)
+ (projectile-replace . 1)
+ (format-find-file . 1)
+ (tabify . 1)
 )
