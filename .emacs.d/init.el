@@ -58,8 +58,7 @@
   :config
   (setq company-idle-delay 0)
   (setq company-minimum-prefix-length 1)
-  (add-to-list
-   'company-backends '(company-capf company-yasnippet))
+    (add-to-list 'company-backends '(company-capf company-yasnippet))
   :hook (
 	 (after-init-hook . global-company-mode)))
 
@@ -79,6 +78,8 @@
 (use-package projectile
   :ensure t
   :init
+  (setq projectile-project-search-path '("~/Projects"))
+  :config
   (projectile-mode +1)
   :bind (:map projectile-mode-map
               ("s-p" . projectile-command-map)
@@ -101,18 +102,24 @@
   :ensure t
   :config
   (global-set-key [f8] 'neotree-toggle))
-(use-package tramp
-  :ensure nil
+(use-package treesit
   :config
-  (connection-local-set-profile-variables 'remote-path-mylinux
+  (setq treesit-extra-load-path '("/usr/local/lib")))
 
-					  '((tramp-remote-path . ("*/bin" "/usr/local/bin" tramp-default-remote-path))))
-
-  (connection-local-set-profiles
-   '(:application tramp :machine "mylinux") 'remote-path-mylinux)
-
-
-  )
-
+(use-package yaml-pro
+  :ensure t)
 
 (load (file-name-concat user-emacs-directory "config.el"))
+(custom-set-variables
+ ;; custom-set-variables was added by Custom.
+ ;; If you edit it by hand, you could mess it up, so be careful.
+ ;; Your init file should contain only one such instance.
+ ;; If there is more than one, they won't work right.
+ '(custom-safe-themes
+   '("4f1e4cadfd4f998cc23338246bae383a0d3a99a5edea9bcf26922ef054671299" default)))
+(custom-set-faces
+ ;; custom-set-faces was added by Custom.
+ ;; If you edit it by hand, you could mess it up, so be careful.
+ ;; Your init file should contain only one such instance.
+ ;; If there is more than one, they won't work right.
+ )
